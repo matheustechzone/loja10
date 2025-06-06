@@ -1,0 +1,228 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechZone - Acessórios de Qualidade</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0f0f0f;
+      color: white;
+      scroll-behavior: smooth;
+    }
+    header {
+      background-color: #1f1f1f;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      color: #00ff99;
+    }
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .intro {
+      background: linear-gradient(to right, #000000, #1a1a1a);
+    }
+    .products {
+      background-color: #141414;
+    }
+    .product-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .product {
+      background-color: #1f1f1f;
+      border-radius: 10px;
+      padding: 20px;
+      width: 250px;
+      transition: transform 0.3s;
+    }
+    .product:hover {
+      transform: scale(1.05);
+    }
+    .product img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .whatsapp {
+      margin-top: 40px;
+    }
+    .whatsapp a {
+      background-color: #25d366;
+      color: white;
+      padding: 15px 30px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .whatsapp a:hover {
+      background-color: #1ebc57;
+    }
+    footer {
+      background-color: #1f1f1f;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TechZone</h1>
+    <p>Os melhores acessórios para seu dia a dia</p>
+  </header>
+
+  <section class="intro">
+    <h2>Bem-vindo à TechZone</h2>
+    <p>Fones, carregadores, cabos e muito mais com qualidade e preço justo.</p>
+  </section>
+
+  <section class="products">
+    <h2>Produtos em Destaque</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="fone.jpg" alt="Fone Bluetooth">
+        <h3>Fone Bluetooth</h3>
+        <p>Alta qualidade de som, bateria de longa duração.</p>
+        <p><strong>R$ 69,90</strong></p>
+      </div>
+      <div class="product">
+        <img src="https://paraisodoseletronicos.com.br/wp-content/uploads/2024/06/carregador-turbo-50-watts-para-smartphon-6.png" alt="Carregador Turbo">
+        <h3>Carregador Turbo</h3>
+        <p>Carregamento rápido e seguro para seu smartphone.</p>
+        <p><strong>R$ 49,90</strong></p>
+      </div>
+      <div class="product">
+        <img src="cabo.jpg" alt="Cabo Tipo-C">
+        <h3>Cabo Tipo-C</h3>
+        <p>Compatível com diversos dispositivos Android.</p>
+        <p><strong>R$ 19,90</strong></p>
+      </div>
+
+      <div class="product">
+        <img src="fonerose.jpg" alt="Fone Rosa com Fio">
+        <h3>Fone Rosa com Fio</h3>
+        <p>Design estiloso e som potente.</p>
+        <p><strong>R$ 39,90</strong></p>
+      </div>
+      <div class="product">
+        <img src="carregadorveicular.jpg" alt="Carregador Veicular">
+        <h3>Carregador Veicular</h3>
+        <p>Ideal para carregar no carro com segurança.</p>
+        <p><strong>R$ 29,90</strong></p>
+      </div>
+      <div class="product">
+        <img src="caboiphone.jpg" alt="Cabo Lightning">
+        <h3>Cabo Lightning</h3>
+        <p>Compatível com iPhones e iPads.</p>
+        <p><strong>R$ 24,90</strong></p>
+      </div>
+
+
+      <div class="product">
+        <img src="fone_esportivo.jpg" alt="Fone Bluetooth Esportivo">
+        <h3>Fone Bluetooth Esportivo</h3>
+        <p>Perfeito para atividades físicas, resistente ao suor.</p>
+        <p><strong>R$ 89,90</strong></p>
+      </div>
+
+      <div class="product">
+        <img src="fone_intra.jpg" alt="Fone Intra-Auricular">
+        <h3>Fone Intra-Auricular</h3>
+        <p>Isolamento de ruído e som de alta definição.</p>
+        <p><strong>R$ 59,90</strong></p>
+      </div>
+
+      <div class="product">
+        <img src="fone_gamer.jpg" alt="Fone Gamer com Microfone">
+        <h3>Fone Gamer com Microfone</h3>
+        <p>Som 3D e microfone com cancelamento de ruído.</p>
+        <p><strong>R$ 129,90</strong></p>
+      </div>
+
+      <div class="product">
+        <img src="carregador_usbc.jpg" alt="Carregador Rápido USB-C">
+        <h3>Carregador Rápido USB-C</h3>
+        <p>Carrega até 70% em 30 minutos.</p>
+        <p><strong>R$ 54,90</strong></p>
+      </div>
+
+      <div class="product">
+        <img src="carregador_3portas.jpg" alt="Carregador com 3 Saídas">
+        <h3>Carregador com 3 Saídas</h3>
+        <p>Ideal para quem precisa carregar vários dispositivos.</p>
+        <p><strong>R$ 64,90</strong></p>
+      </div>
+
+      <div class="product">
+        <img src="cabo_microusb.jpg" alt="Cabo Micro USB Reforçado">
+        <h3>Cabo Micro USB Reforçado</h3>
+        <p>Alta durabilidade e resistência a dobras.</p>
+        <p><strong>R$ 19,90</strong></p>
+      </div>
+
+      <div class="product">
+        <img src="cabo_magnetico.jpg" alt="Cabo USB-C Magnético">
+        <h3>Cabo USB-C Magnético</h3>
+        <p>Fácil de conectar, ideal para uso no escuro.</p>
+        <p><strong>R$ 29,90</strong></p>
+      </div>
+
+      <div class="product">
+        <img src="fone_fio_estereo.jpg" alt="Fone Estéreo com Fio">
+        <h3>Fone Estéreo com Fio</h3>
+        <p>Som limpo com acabamento premium.</p>
+        <p><strong>R$ 34,90</strong></p>
+      </div>
+
+      <div class="product">
+        <img src="cabo_lightning_reforcado.jpg" alt="Cabo Lightning Reforçado">
+        <h3>Cabo Lightning Reforçado</h3>
+        <p>Para iPhone com blindagem extra.</p>
+        <p><strong>R$ 27,90</strong></p>
+      </div>
+
+      <div class="product">
+        <img src="fone_dobravel.jpg" alt="Fone Bluetooth Dobrável">
+        <h3>Fone Bluetooth Dobrável</h3>
+        <p>Design compacto e som poderoso.</p>
+        <p><strong>R$ 99,90</strong></p>
+      </div>
+
+      <div class="product">
+        <img src="carregador_20w.jpg" alt="Carregador 20W Turbo">
+        <h3>Carregador 20W Turbo</h3>
+        <p>Ideal para celulares modernos com alta exigência de energia.</p>
+        <p><strong>R$ 69,90</strong></p>
+      </div>
+
+      <div class="product">
+        <img src="cabo_nylon.jpg" alt="Cabo Tipo-C de Nylon">
+        <h3>Cabo Tipo-C de Nylon</h3>
+        <p>Revestimento em nylon trançado ultra resistente.</p>
+        <p><strong>R$ 24,90</strong></p>
+      </div>
+
+    </div>
+
+    <div class="whatsapp">
+      <a href="https://wa.me/5511999999999">Fale conosco no WhatsApp</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 TechZone. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
